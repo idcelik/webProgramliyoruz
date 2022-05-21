@@ -2,27 +2,39 @@
 <meta charset="UTF-8">
 
 <head>
+    <style type="text/css">
+        .intro1 {
+            background-color: blue;
+        }
 
+        .intro2 {
+            background-color: red;
+        }
+
+        .intro3 {
+            background-color: chocolate;
+        }
+    </style>
 </head>
 
 <body>
     <!-- <h1 id="deniz"></h1> -->
 
-    <p id="intro1">İlk paragraf</p>
-    <p id="intro2">İkinci paragraf</p>
-    <p id="intro3">Üçüncü paragraf</p>
+    <p id="intro1" class="intro1">İlk paragraf</p>
+    <p id="intro2" class="intro2">İkinci paragraf</p>
+    <p id="intro3" class="intro3">Üçüncü paragraf</p>
 
     <ul>
         <li>Ankara</li>
         <li>İzmir</li>
-        <li>İstanbul</li>
+        <li class="intro1">İstanbul</li>
         <li>Bartın</li>
         <li>Manisa</li>
     </ul>
 
     <p id="mesaj"></p>
     <input type="text" name="musteriAdi" value="Deniz">
-    <h1>Deniz Ç.</h1>
+    <h1 id="deniz">Deniz Ç.</h1>
     <h1 id="yazar"></h1>
     <p id="agac">
         Ağaç değeri
@@ -31,7 +43,12 @@
         <p id="p1">bu kısım p1</p>
         <p id="p2">bu kısım p2</p>
     </div>
-    <script src="dom.js"></script>
+    <!-- <script src="dom.js"></script>  -->
+    <!-- <script src="dom2.js"></script> -->
+    <!-- <script src="querySelector.js"></script> --> 
+    <!-- <script src="getElementsByName.js"></script> -->
+    <!-- <script src="addEventListener.js"></script> --> 
+    <script src="nods.js"></script>
 </body>
 
 </html>
